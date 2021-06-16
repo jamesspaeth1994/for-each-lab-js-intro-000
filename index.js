@@ -5,7 +5,7 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
-  const lotteryNumbers = [2, 4, 5, 2];
-  lotteryNumbers.forEach(callback);
-  return lotteryNumbers;
+  var array = [1, 2, 3, 4];
+  array.forEach(callback);
+  return array;
 }
